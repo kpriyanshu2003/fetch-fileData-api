@@ -1,0 +1,25 @@
+{
+  "name": "fetch-fileData-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kpriyanshu2003/fetch-fileData-api.git",
+  "author": "kpriyanshu2003 <az.priyanshu.rockstar@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node index.js",
+    "dev": "nodemon index.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9"
+  }
+}
